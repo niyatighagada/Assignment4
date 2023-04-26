@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nav {
+  width: 25%;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  margin-bottom: 1rem;
+}
+
+.main {
+  width: 70%;
+}
+
+.main-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-post {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
